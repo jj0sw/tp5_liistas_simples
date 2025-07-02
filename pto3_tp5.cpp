@@ -16,7 +16,7 @@ typedef struct tlista {
 
 void iniciar_lista(tlista &lista) {
 	lista.inicio = NULL;
-	lista.final = NULL;
+	lista.fin = NULL;
 	lista.cantidad = 0;
 }
 
@@ -36,10 +36,10 @@ void crear_nodo(pnodo &nuevo) {
 void agregar_final(tlista &lista, pnodo nuevo) {
 	if (lista.inicio == NULL) {
 		lista.inicio = nuevo;
-		lista.final = nuevo;
+		lista.fin = nuevo;
 	} else {
-		lista.final->siguiente = nuevo;
-		lista.final = nuevo;
+		lista.fin->siguiente = nuevo;
+		lista.fin = nuevo;
 	}
 	lista.cantidad++;
 }
@@ -53,7 +53,7 @@ pnodo eliminar_inicio(tlista &lista) {
 		borrado = lista.inicio;
 		lista.inicio = lista.inicio->siguiente;
 		if (lista.inicio == NULL) {
-			lista.final = NULL;
+			lista.fin = NULL;
 		}
 		borrado->siguiente = NULL;
 		lista.cantidad--;
