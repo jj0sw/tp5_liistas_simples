@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cctype>
 using namespace std;
 
 typedef struct tnodo* pnodo;
@@ -164,10 +163,9 @@ int main() {
 			cout << "Fin" << endl;
 			break;
 		default:
-			cout << "Opcion invalida." << endl;
+			cout << "La opcion no es valida." << endl;
 		}
 		
 	} while (opcion != 7);
 	
-	return 0;
 }
