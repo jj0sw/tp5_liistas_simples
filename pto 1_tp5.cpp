@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-typedef struct tnodo* pnodo;
+typedef struct tnodo *pnodo;
 typedef struct tnodo {
 	int dato;
 	pnodo siguiente;
@@ -109,13 +109,13 @@ int main() {
 				cout << "Nodo minimo eliminado: " << borrado->dato << endl;
 				delete borrado;
 			} else {
-				cout << "Lista vaci­a." << endl;
+				cout << "Lista vaciÂ­a." << endl;
 			}
 			break;
 		case 4:
 			cout << "Lista: ";
 			if (lista == NULL) {
-				cout << "vaci­a." << endl;
+				cout << "vaciÂ­a." << endl;
 			} else {
 				pnodo aux = lista;
 				while (aux != NULL) {
