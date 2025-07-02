@@ -203,7 +203,7 @@ int main() {
 			break;
 			
 		default:
-			cout << "Opcion invalida." << endl;
+			cout << "Su opcion no es valida." << endl;
 		}
 	} while (estructura != 3);
 	
