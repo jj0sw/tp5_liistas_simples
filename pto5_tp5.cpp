@@ -48,7 +48,7 @@ void mostrar_lista(pnodo lista) {
 	}
 }
 
-// Ordenar por selecc
+// Ordenar por seleccion
 void ordenar_seleccion(pnodo &lista) {
 	pnodo i, j, menor;
 	int aux;
@@ -146,5 +146,5 @@ int main() {
 		}
 	} while (opcion != 7);
 	
-	return 0;
+	
 }
