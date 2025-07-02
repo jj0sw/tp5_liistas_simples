@@ -9,7 +9,7 @@ typedef struct tnodo {
 
 typedef struct tlista {
 	pnodo inicio;
-	pnodo final;
+	pnodo fin;
 	int cantidad;
 };
 
