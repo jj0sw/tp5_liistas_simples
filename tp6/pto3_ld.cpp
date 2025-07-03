@@ -63,12 +63,12 @@ void DecimalABinario(tlista &lista, int numero) {
 
 int main() {
 	tlista lista;
-	;
+	int numero;
 	
 	IniciarLista(lista);
 	
 	cout << "Ingrese numero decimal: ";
-	cin >> ;
+	cin >> numero;
 	
 	DecimalABinario(lista, numero);
 	MostrarLista(lista);
