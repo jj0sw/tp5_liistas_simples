@@ -147,7 +147,7 @@ int main() {
 			MostrarLista(lista);
 			break;
 		case 6:
-			cout << "" << endl;
+			cout << "Hasta pronto!" << endl;
 			break;
 		default:
 			cout << "Opcion invalida." << endl;
