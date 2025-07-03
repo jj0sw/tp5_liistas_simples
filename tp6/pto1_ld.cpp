@@ -8,7 +8,7 @@ typedef struct tnodo {
 	pnodo ant;
 };
 
-void Iniciarlista(pnodo &inicio) {
+void IniciarLista(pnodo &inicio) {
 	inicio = NULL;
 }
 
